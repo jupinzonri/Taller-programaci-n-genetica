@@ -81,4 +81,6 @@ Para ejecutar los scripts en un entorno local, se requieren las siguientes libre
 
 ```bash
 pip install numpy pandas scikit-learn deap gplearn
+python ejercicio1_circuito.py
+python ejercicio3_fraude.py
 
