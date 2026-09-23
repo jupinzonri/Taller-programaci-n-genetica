@@ -20,7 +20,7 @@ En este informe se detalla:
 ### 1.1 Contexto y Formulación del Problema
 En el diseño de sistemas digitales hardware o controladores, la simplificación de funciones lógicas se realiza tradicionalmente con herramientas estáticas. Sin embargo, la Programación Genética ofrece una alternativa estocástica eficiente para explorar el espacio de búsqueda de expresiones booleanas sin necesidad de preprocesamiento.
 
-El objetivo es evolucionar la función lógica que controla el **segmento `a`** de un visualizador BCD a 7 segmentos. La entrada consiste en un vector BCD de 4 bits $(x_3, x_2, x_1, x_0)$ que representa los dígitos del $0$ al $9$.
+El objetivo es evolucionar la función lógica que controla el **segmento `a`** de un visualizador BCD a 7 segmentos. La entrada consiste en un vector BCD de 4 bits ($x_3, x_2, x_1, x_0$) que representa los dígitos del $0$ al $9$.
 
 ### 1.2 Estructura Formal del Algoritmo Genético
 Siguiendo los pasos preparatorios en Programación Genética:
@@ -77,10 +77,27 @@ $$f(X) = \frac{\text{monto\_pesos}}{\text{ingreso\_mensual}} + \log(\text{distan
 ## 🛠️ Instrucciones de Instalación y Ejecución
 
 ### 1. Instalación de Dependencias
-Para ejecutar los scripts en un entorno local, se requieren las siguientes librerías:
+Para ejecutar los scripts en un entorno local, se requieren las siguientes librerías de Python:
 
 ```bash
 pip install numpy pandas scikit-learn deap gplearn
-python ejercicio1_circuito.py
-python ejercicio3_fraude.py
+```
 
+### 2. Ejecución de los Códigos
+Comando para ejecutar la simulación del circuito lógico (Ejercicio 1):
+
+```bash
+python ejercicio1_circuito.py
+```
+
+Comando para ejecutar el detector simbólico de fraudes (Ejercicio 3):
+
+```bash
+python ejercicio3_fraude.py
+```
+
+---
+
+## 🎓 Conclusiones
+* La Programación Genética es una técnica sólida para la **búsqueda y síntesis automática de estructuras de código y ecuaciones**.
+* Permite resolver problemas complejos combinando funciones y terminales hasta alcanzar un rendimiento óptimo evaluado por la función de aptitud.
